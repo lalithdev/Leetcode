@@ -10,8 +10,10 @@ class NumArray {
     }
     
     public int sumRange(int left, int right) {
-        if(left==0) return prefixSum[right];
-        else return prefixSum[right]-prefixSum[left-1];
+        int ans=0;
+        if(left==0) ans=prefixSum[right];
+        else ans=prefixSum[right]-prefixSum[left-1];
+        return ans;
     }
 }
 
