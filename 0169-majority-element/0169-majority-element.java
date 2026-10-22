@@ -13,7 +13,9 @@ class Solution {
         for(int j=0;j<n;j++){
             if(nums[j] == current)  cnt1++;
         }
-        if(cnt1 > n/2) return current;
+
+        if(cnt1 > n/2) 
+            return current;
         return 0;
     }
 }
