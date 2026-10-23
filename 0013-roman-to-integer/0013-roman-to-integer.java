@@ -16,6 +16,7 @@ class Solution {
             }
             else{
                 ans += res;
+                
             }
             prev = res;
         }
